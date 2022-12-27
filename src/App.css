@@ -1,0 +1,60 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height:100vh;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100;
+  height:15%;
+  background-color:brown;
+  color: antiquewhite;
+  border: 2px solid brown;
+}
+h1{
+  text-align: center;
+  font-size: 100px;
+}
+
+.section{
+  background-color: rgb(128, 74, 27);
+  height: 80%;
+  width:100vw;
+}
+
+.inputfield{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.book{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  
+
+}
+.bookdisplay{
+  background-color: brown;
+  width: 20%;
+  height: 70%;
+   color: wheat;
+   padding: 2rem;
+   border-radius: 20px;
+
+}
+.bookdisplay:hover{
+  /* background-color: rgb(238, 118, 118); */
+  box-shadow: 2px 2px 2px 2px rgb(234, 156, 156);
+}
+.row{
+  margin: 20px;
+}
+
